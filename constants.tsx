@@ -1,4 +1,5 @@
 
+import React from 'react';
 import { Mail, Phone, MapPin, Github, Linkedin, Code, Layers, Brain, Database, Award } from 'lucide-react';
 import { Project, EducationItem, Skill } from './types';
 
@@ -73,6 +74,12 @@ export const SKILLS: Skill[] = [
 
 export const EXPERIENCE = [
   {
+    role: "Python Developer Intern",
+    company: "Elevate Labs (Ministry of MSME, Govt. of India)",
+    period: "Sep 2025 – Nov 2025",
+    description: "Successfully completed a Python Developer Internship at Elevate Labs. Worked on real-world Python projects, strengthening skills in backend logic, problem-solving, and debugging. Recognized as 'Best Performer' for exceptional dedication and analytical thinking."
+  },
+  {
     role: "Full Stack Developer Intern",
     company: "Tech Solutions Inc.",
     period: "June 2024 – August 2024",
@@ -87,6 +94,7 @@ export const EXPERIENCE = [
 ];
 
 export const CERTIFICATIONS = [
+  "Best Performer | Python Developer Internship",
   "Python Essential-1",
   "Data Science Foundation",
   "AWS Academy Graduate",
