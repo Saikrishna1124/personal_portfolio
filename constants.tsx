@@ -77,19 +77,7 @@ export const EXPERIENCE = [
     role: "Python Developer Intern",
     company: "Elevate Labs (Ministry of MSME, Govt. of India)",
     period: "Sep 2025 – Nov 2025",
-    description: "Successfully completed a Python Developer Internship at Elevate Labs. Worked on real-world Python projects, strengthening skills in backend logic, problem-solving, and debugging. Recognized as 'Best Performer' for exceptional dedication and analytical thinking."
-  },
-  {
-    role: "Full Stack Developer Intern",
-    company: "Tech Solutions Inc.",
-    period: "June 2024 – August 2024",
-    description: "Developed responsive web applications using React and Django. Improved database query performance by 30% through indexing and optimization."
-  },
-  {
-    role: "AI/ML Research Assistant",
-    company: "Parul University",
-    period: "January 2024 – Present",
-    description: "Assisting in research on deep learning models for image recognition. Implementing neural networks using TensorFlow and PyTorch."
+    description: "Successfully completed a Python Developer Internship under the Ministry of MSME, Govt. of India, at Elevate Labs. Worked on real-world Python development projects. Recognized as 'Best Performer' for exceptional dedication and analytical thinking."
   }
 ];
 
