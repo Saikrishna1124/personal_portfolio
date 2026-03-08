@@ -1,5 +1,4 @@
 
-import React from 'react';
 import { Mail, Phone, MapPin, Github, Linkedin, Code, Layers, Brain, Database, Award } from 'lucide-react';
 import { Project, EducationItem, Skill } from './types';
 
@@ -69,6 +68,21 @@ export const SKILLS: Skill[] = [
   {
     category: "Tools",
     items: ["AWS", "GitHub", "VS Code", "Django"]
+  }
+];
+
+export const EXPERIENCE = [
+  {
+    role: "Full Stack Developer Intern",
+    company: "Tech Solutions Inc.",
+    period: "June 2024 – August 2024",
+    description: "Developed responsive web applications using React and Django. Improved database query performance by 30% through indexing and optimization."
+  },
+  {
+    role: "AI/ML Research Assistant",
+    company: "Parul University",
+    period: "January 2024 – Present",
+    description: "Assisting in research on deep learning models for image recognition. Implementing neural networks using TensorFlow and PyTorch."
   }
 ];
 
