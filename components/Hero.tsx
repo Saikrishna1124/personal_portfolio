@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Github, Linkedin, Mail, ArrowDown } from 'lucide-react';
+import { Github, Linkedin, Mail, ArrowDown, FileText } from 'lucide-react';
 import { PERSONAL_INFO } from '../constants';
 
 const Hero: React.FC = () => {
@@ -55,6 +55,14 @@ const Hero: React.FC = () => {
               className="px-8 py-3.5 bg-indigo-600 hover:bg-indigo-700 text-white rounded-full font-semibold transition-all shadow-xl shadow-indigo-600/20 active:scale-95"
             >
               Get In Touch
+            </a>
+            <a 
+              href="/sai_resume.pdf" 
+              download="Sai_Krishna_Resume.pdf"
+              className="px-8 py-3.5 bg-white/5 hover:bg-white/10 text-white rounded-full font-semibold transition-all border border-white/10 active:scale-95 flex items-center gap-2"
+            >
+              <FileText size={18} />
+              Resume
             </a>
             <div className="flex items-center gap-4 ml-2">
               <a href={PERSONAL_INFO.github} target="_blank" rel="noopener noreferrer" className="p-3 bg-white/5 hover:bg-white/10 rounded-full text-slate-300 hover:text-white transition-colors border border-white/10">

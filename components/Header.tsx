@@ -15,9 +15,15 @@ const Header: React.FC<HeaderProps> = ({ activeSection }) => {
     { id: 'internship', label: 'Internship' },
     { id: 'education', label: 'Education' },
     { id: 'contact', label: 'Contact' },
+    { id: 'resume', label: 'Resume', isExternal: true, href: '/sai_resume.pdf' },
   ];
 
   const scrollTo = (id: string) => {
+    const item = navItems.find(i => i.id === id);
+    if (item?.isExternal) {
+      window.open(item.href, '_blank');
+      return;
+    }
     const element = document.getElementById(id);
     if (element) {
       window.scrollTo({
