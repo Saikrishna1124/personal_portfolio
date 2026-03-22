@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
+import { PERSONAL_INFO } from '../constants';
 
 interface HeaderProps {
   activeSection: string;
@@ -15,7 +16,7 @@ const Header: React.FC<HeaderProps> = ({ activeSection }) => {
     { id: 'internship', label: 'Internship' },
     { id: 'education', label: 'Education' },
     { id: 'contact', label: 'Contact' },
-    { id: 'resume', label: 'Resume', isExternal: true, href: '/sai_resume.pdf' },
+    { id: 'resume', label: 'Resume', isExternal: true, href: PERSONAL_INFO.resumeUrl },
   ];
 
   const scrollTo = (id: string) => {

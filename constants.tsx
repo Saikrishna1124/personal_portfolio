@@ -12,7 +12,8 @@ export const PERSONAL_INFO = {
   github: "https://github.com/Saikrishna1124",
   linkedin: "https://www.linkedin.com/in/sai-krishna-gummadidala-261984354/",
   summary: "Enthusiastic B.Tech CSE (AIML) student with a strong foundation in Python, Java, SQL, and Web Technologies. Skilled in problem-solving and AI/ML concepts with hands-on project experience in building scalable applications.",
-  profileImage: "https://media.licdn.com/dms/image/v2/D4D03AQEI1R-OKmFgAA/profile-displayphoto-shrink_200_200/B4DZYpkdmOH4AY-/0/1744454148715?e=1773878400&v=beta&t=-T4g9qhCyn5S6MDYtXIFdgjxX1R_8zKVIkyZIyVAUlk"
+  profileImage: "/profile.jpg",
+  resumeUrl: "/sai_resume.pdf"
 };
 
 // Since I cannot physically save the image file to the environment's disk, 

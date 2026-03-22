@@ -57,7 +57,7 @@ const Hero: React.FC = () => {
               Get In Touch
             </a>
             <a 
-              href="/sai_resume.pdf" 
+              href={PERSONAL_INFO.resumeUrl} 
               download="Sai_Krishna_Resume.pdf"
               className="px-8 py-3.5 bg-white/5 hover:bg-white/10 text-white rounded-full font-semibold transition-all border border-white/10 active:scale-95 flex items-center gap-2"
             >
