@@ -8,6 +8,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Education from './components/Education';
 import Internship from './components/Internship';
+import Services from './components/Services';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -16,7 +17,7 @@ const App: React.FC = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['home', 'about', 'skills', 'projects', 'internship', 'education', 'contact'];
+      const sections = ['home', 'about', 'services', 'skills', 'projects', 'internship', 'education', 'contact'];
       const scrollPosition = window.scrollY + 100;
 
       for (const section of sections) {
@@ -48,6 +49,7 @@ const App: React.FC = () => {
       <main className="relative z-10">
         <Hero />
         <About />
+        <Services />
         <Skills />
         <Projects />
         <Internship />

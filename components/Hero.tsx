@@ -94,9 +94,9 @@ const Hero: React.FC = () => {
                 const target = e.target as HTMLImageElement;
                 target.src = `https://picsum.photos/seed/${PERSONAL_INFO.name}/800/800`;
               }}
-              className="w-full h-full object-cover rounded-xl filter grayscale hover:grayscale-0 transition-all duration-700"
+              className="w-full h-full object-cover rounded-xl transition-all duration-700 group-hover:scale-105 group-hover:brightness-105"
             />
-            <div className="absolute inset-0 bg-indigo-500/20 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none" />
+            <div className="absolute inset-0 bg-indigo-500/10 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none" />
           </div>
         </motion.div>
       </div>
