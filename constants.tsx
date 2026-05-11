@@ -23,19 +23,24 @@ export const PERSONAL_INFO = {
 
 export const PROJECTS: Project[] = [
   {
-    title: "Infinity",
-    description: "A comprehensive expense manager for shopping, transport, and food tracking. Focuses on intuitive user experience and data visualization.",
-    tech: ["HTML", "CSS", "JavaScript"]
+    title: "NexusLearn",
+    description: "NexusLearn — AI Powered Smart E-Learning Platform. Developed a full-stack e-learning platform with AI-based learning assistance and course management features.",
+    tech: ["React", "AI", "Node.js", "Full-Stack"],
+    github: "https://github.com/Saikrishna1124/NexusLearn",
+    live: "https://nexuslearn-ni3a.onrender.com/"
   },
   {
     title: "CampusPro",
     description: "A robust college management system designed to streamline academic and administrative tasks for students and faculty.",
-    tech: ["Django", "HTML", "CSS", "JavaScript", "SQL"]
+    tech: ["Django", "HTML", "CSS", "JavaScript", "SQL"],
+    github: "https://github.com/Saikrishna1124/CampusPro"
   },
   {
-    title: "Web Portfolio",
+    title: "Personal Portfolio",
     description: "A high-performance, responsive portfolio showcasing professional journey, skills, and projects with fluid animations.",
-    tech: ["React", "Tailwind CSS", "Framer Motion"]
+    tech: ["React", "Tailwind CSS", "Framer Motion"],
+    github: "https://github.com/Saikrishna1124/personal_portfolio",
+    live: "https://personal-portfolio-kappa-lemon-57.vercel.app/"
   }
 ];
 

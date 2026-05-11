@@ -9,7 +9,7 @@ const Projects: React.FC = () => {
     <section id="projects" className="py-24 px-6">
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col items-center mb-16">
-          <motion.span 
+          <motion.span
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -17,7 +17,7 @@ const Projects: React.FC = () => {
           >
             Work Showcase
           </motion.span>
-          <motion.h2 
+          <motion.h2
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -44,8 +44,16 @@ const Projects: React.FC = () => {
                     <Folder size={24} />
                   </div>
                   <div className="flex gap-4 text-slate-400">
-                    <Github size={20} className="hover:text-white cursor-pointer transition-colors" />
-                    <ExternalLink size={20} className="hover:text-white cursor-pointer transition-colors" />
+                    {project.github && (
+                      <a href={project.github} target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400 transition-colors">
+                        <Github size={20} />
+                      </a>
+                    )}
+                    {project.live && (
+                      <a href={project.live} target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400 transition-colors">
+                        <ExternalLink size={20} />
+                      </a>
+                    )}
                   </div>
                 </div>
                 <h3 className="text-xl font-bold text-white mb-3 group-hover:text-indigo-400 transition-colors">
