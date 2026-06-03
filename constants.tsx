@@ -33,7 +33,8 @@ export const PROJECTS: Project[] = [
     title: "CampusPro",
     description: "A robust college management system designed to streamline academic and administrative tasks for students and faculty.",
     tech: ["Django", "HTML", "CSS", "JavaScript", "SQL"],
-    github: "https://github.com/Saikrishna1124/CampusPro"
+    github: "https://github.com/Saikrishna1124/CampusPro",
+    live: "https://campus-pro-zfrb-jsklfghsq-saikrishna1124s-projects.vercel.app/"
   },
   {
     title: "Personal Portfolio",
