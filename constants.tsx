@@ -13,7 +13,7 @@ export const PERSONAL_INFO = {
   linkedin: "https://www.linkedin.com/in/sai-krishna-gummadidala-261984354/",
   summary: "Enthusiastic B.Tech CSE (AIML) student with a strong foundation in Python, Java, SQL, and Web Technologies. Skilled in problem-solving and AI/ML concepts with hands-on project experience in building scalable applications.",
   profileImage: "/profile.jpg",
-  resumeUrl: "/sai_resume.pdf"
+  resumeUrl: "/Sai__Resume.pdf"
 };
 
 // Since I cannot physically save the image file to the environment's disk, 
