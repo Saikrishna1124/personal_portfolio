@@ -92,14 +92,21 @@ const About: React.FC = () => {
             </h3>
             <div className="space-y-4">
               {CERTIFICATIONS.map((cert, index) => (
-                <motion.div 
-                   key={index}
-                  whileHover={{ x: 5 }}
-                  className="flex items-center gap-4 p-4 bg-white/5 rounded-2xl border border-white/5 hover:border-indigo-500/50 transition-all cursor-default"
+                <a 
+                  key={index}
+                  href={cert.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block"
                 >
-                  <div className="w-2 h-2 rounded-full bg-indigo-500" />
-                  <span className="text-slate-200 font-medium">{cert}</span>
-                </motion.div>
+                  <motion.div 
+                    whileHover={{ x: 5 }}
+                    className="flex items-center gap-4 p-4 bg-white/5 rounded-2xl border border-white/5 hover:border-indigo-500/50 transition-all cursor-pointer"
+                  >
+                    <div className="w-2 h-2 rounded-full bg-indigo-500" />
+                    <span className="text-slate-200 font-medium">{cert.name}</span>
+                  </motion.div>
+                </a>
               ))}
             </div>
           </motion.div>

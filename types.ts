@@ -18,3 +18,8 @@ export interface Skill {
   category: string;
   items: string[];
 }
+
+export interface Certification {
+  name: string;
+  url: string;
+}
