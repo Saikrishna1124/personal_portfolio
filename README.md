@@ -80,7 +80,7 @@ npm run build
 
 ## 👨‍💻 About Me
 
-I am **Sai Krishna Gummadidala**, a B.Tech CSE (AI & ML) student at Parul University. I am passionate about building intelligent applications and crafting modern digital experiences.
+I am **Sai Krishna Gummadidala**, B.Tech CSE (AI & ML) student at Parul University. I am passionate about building intelligent applications and crafting modern digital experiences.
 
 ---
 
