@@ -6,7 +6,7 @@ Welcome to my professional portfolio! This project is a high-performance, visual
 
 ## 🛠️ Tech Stack (The "DStack")
 
-I've used a modern and powerful stack to ensure speed, scalability, and a premium user experience:
+I've used a modern and powerful stack to ensure speed, scalability, and a premium user experience.
 
 *   ⚛️ **React 19** – The core library for building a dynamic and component-based UI.
 *   ⚡ **Vite** – Next-generation frontend tooling for an ultra-fast development experience.
